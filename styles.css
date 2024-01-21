@@ -1,0 +1,95 @@
+* {
+  font-family: 'TheGoodMonolith', sans-serif;
+}
+
+body {
+  width: 100% auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('ROCK_PAPER_SCISSORS_1920X1200.jpg');
+}
+
+.pArea {
+  width: 800px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.pArea > p,
+.moves {
+  width: 250px;
+  background-color: white;
+  border: 1px dashed black;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.moves {
+  font-size: 20px;
+}
+
+.result {
+  width: 600px;
+  height: 100px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border: 1px dashed black;
+  border-radius: 20px;
+}
+
+.btns {
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ee87a6;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #f198b3;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #ee87a6;
+  transform: scale(0.9);
+}
+
+.resetBtn {
+  width: 120px;
+  height: 80px;
+  background-color: #fff59d;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+}
+
+.resetBtn:hover {
+  background-color: #fff9c4;
+  cursor: pointer;
+}
+
+.resetBtn:active {
+  background-color: #fff59d;
+  transform: scale(0.9);
+}
